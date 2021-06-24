@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+          crossorigin="anonymous"
+    >
+    <title>marvel</title>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand">Marvel</a>
+        <form class="d-flex">
+            <input type="search"
+                   placeholder="Поиск..."
+                   aria-label="Search"
+                   class="form-control me-2"
+            >
+            <button
+                    type="reset"
+                    class="btn btn-outline-light"
+            >
+                все
+            </button>
+        </form>
+    </div>
+</nav>
+
+<div class="container">
+
+    <h1 class="pt-3 pb-3">Персонажи Marvel</h1>
+
+    <!-- Modal -->
+    <div id="exampleModal"
+         tabindex="-1"
+         aria-labelledby="exampleModalLabel"
+         class="modal fade"
+         style="display: none;" aria-hidden="true"
+    >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Человек-паук</h5>
+                    <button type="button"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                            class="btn-close"
+                    ></button>
+                </div>
+                <div class="modal-body">
+                    <img src="http://i.annihil.us/u/prod/marvel/i/mg/3/50/526548a343e4b.jpg"
+                         alt="Человек-паук"
+                         style="max-width: 100%;"
+                    >
+                    <div>
+                        <p class="text-muted">2020-07-21T10:30:10-0400</p>
+                        <h5>Описание:</h5>
+                        <p>
+                            Укушенный радиоактивным пауком, старшеклассник Питер Паркер обрел
+                            скорость, силу и силу паука. Приняв имя Человек-паук, Питер надеялся начать карьеру,
+                            используя свои новые способности. Наученный тому, что с большой силой приходит большая
+                            ответственность, Паук поклялся использовать свои силы, чтобы помогать людям.
+                        </p>
+                        <h5>Комиксы:</h5>
+                        <ul>
+                            <li> Adventures of Spider-Man (1996) #1</li>
+                            <li> Adventures of Spider-Man (1996) #2</li>
+                            <li> Adventures of Spider-Man (1996) #3</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button"
+                                data-bs-dismiss="modal"
+                                class="btn btn-secondary  btn-sm"
+                        >
+                            Закрыть
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="card mb-3 col-sm-12 col-md-6 col-lg-4">
+            <div class="row g-0">
+                <div class="col-4">
+                    <img src="http://i.annihil.us/u/prod/marvel/i/mg/3/50/526548a343e4b.jpg"
+                         alt="Человек-паук"
+                         style="max-width: 100%;"
+                    >
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Человек-паук</h5>
+                        <button type="button"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"
+                                class="btn btn-secondary btn-sm"
+                        >
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"
+></script>
+
+</body>
+</html>
