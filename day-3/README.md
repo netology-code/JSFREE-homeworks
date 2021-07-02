@@ -1,29 +1,20 @@
-# marvel
+# День 3 - Подводим итоги
 
-## Project setup
-```
-npm install
-```
+**Правила выполнения домашней работы:**
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- **Данное ДЗ является не обязательным**
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Любые вопросы по решению задач задавайте в Telegram.
 
-### Run your tests
-```
-npm run test
-```
+**Описание**
 
-### Lints and fixes files
-```
-npm run lint
-```
+На занятии мы доработали свое приложение добавив в него функционал поиска персонажей и опубликовали его 
+на Firebase Hosting. 
+В рамках домашней работы вам нужно повторить функционал поиска в своем приложении.  
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+> в качестве примера реализации вы можете воспользоваться [примером коды](result), который мы рассматривали на занятии  
+
+
+#### Дополнительное задание* 
+Ознакомитесь с документацией  [Firebase Hosting]( https://firebase.google.com/docs/hosting) и опубликуйте на нем свое 
+приложение 

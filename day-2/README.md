@@ -1,29 +1,24 @@
-# marvel
+# День 2 - Пишем приложение на Vue.js
 
-## Project setup
-```
-npm install
-```
+**Правила выполнения домашней работы:**
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Первые **5** работ будут оценены экспертом 
+- Любые вопросы по решению задач задавайте в Telegram.
+- В поле для сдачи работы прикрепите ссылку на ваш проект в Git или прикрепите архив в формате `.zip`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+**Описание**
 
-### Run your tests
-```
-npm run test
-```
+На занятии с использованием [vue.js](https://vuejs.org/) и [API](https://netology-api-marvel.herokuapp.com/characters) 
+мы оживили нашу статичную верстку и превратили ее в web-приложение. 
+В рамках домашней работы вам нужно повторить аналогичные операции для своей верстки из предыдущего ДЗ. 
 
-### Lints and fixes files
-```
-npm run lint
-```
+1. [Скачайте](starting-template) шаблон приложения и установить все зависимости используя команду `npm install`
+1. Перенесите верстку из предыдущего ДЗ в компоненты vue.js (директория `\src\componenrs\...`)
+1. Реализуйте получение данных с [API](https://netology-api-marvel.herokuapp.com/characters) используя [Fetch](https://learn.javascript.ru/fetch)
+1. Свяжите данные полученные от API с компонентами vue.js 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+> Если вы не успели подготовить верстку с предыдущего ДЗ, не переживайте, вы можете 
+[воспользоваться готовой](html-template) 
+
+
+
