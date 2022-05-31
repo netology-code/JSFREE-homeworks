@@ -12,7 +12,7 @@
 В рамках домашней работы вам нужно повторить аналогичные операции для своей верстки из предыдущего ДЗ. 
 
 1. [Скачайте](https://downgit.github.io/#/home?url=https:%2F%2Fgithub.com%2Fnetology-code%2FJSFREE-homeworks%2Ftree%2Fmain%2Fday-2%2Fstarting-template) шаблон приложения и установите все зависимости, используя команду `npm install`
-1. Перенесите верстку из предыдущего ДЗ в компоненты vue.js (директория `\src\componenrs\...`)
+1. Перенесите верстку из предыдущего ДЗ в компоненты vue.js (директория `\src\components\...`)
 1. Реализуйте получение данных с [API](https://netology-api-marvel.herokuapp.com/characters), используя [Fetch](https://learn.javascript.ru/fetch)
 1. Свяжите данные, полученные от API, с компонентами vue.js 
 
